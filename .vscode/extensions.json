@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "EditorConfig.EditorConfig",
+        "ecmel.vscode-html-css",
+        "Zignd.html-css-class-completion",
+        "mkaufman.HTMLHint",
+        "stylelint.vscode-stylelint",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "vincaslt.highlight-matching-tag",
+        "christian-kohler.path-intellisense",
+        "naumovs.color-highlight",
+        "figma.figma"
+    ]
+}

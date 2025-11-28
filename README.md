@@ -5,17 +5,42 @@ Prosty szablon do tworzenia stron statycznych w **HTML + CSS** z lokalnym live-s
 ## 📁 Struktura projektu
 
 ```
-project/
-├─ src/
-│  ├─ index.html
-│  ├─ about.html
-│  └─ css/
-│     └─ style.css
-├─ public/              # generowane przez build
-├─ index.js             # kopiowanie plików src → public
-├─ package.json
-├─ postcss.config.js
-└─ .gitignore
+project-root/
+│
+├── _info/
+│   └── tasks/               # zadania
+│       ├── HEADER_MOBILE.md
+│       └── HEADER.md
+│
+├── .vscode/
+│   ├── extensions.json
+│   └── settings.json
+│
+├── node_modules/              # generowane po npm install
+│
+├── public/                    # generowane przez npm run build
+│
+├── src/
+│   ├── css/
+│   │   ├── style.css          # główny CSS (dev)
+│   │   └── style.min.css      # wersja minifikowana (dev preview)
+│   └── index.html
+│
+├── .editorconfig
+├── .gitignore
+├── .prettierrc
+│
+├── GITHUB.md                  # instrukcja GitHub
+│
+├── index.js                   # skrypt build: kopiowanie src → public
+│
+├── package.json
+├── package-lock.json
+│
+├── postcss.config.js          # konfiguracja cssnano / postcss
+│
+└── README.md
+
 ```
 
 ## 🚀 Komendy
